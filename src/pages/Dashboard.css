@@ -1,0 +1,40 @@
+.navbar {
+    /* background-color: #9da3a8;  */
+    /* padding: 10px 20px; */
+    width: 100%;
+  }
+  
+  .line {
+    border-top:1px solid rgb(197, 193, 194); 
+    margin: 10px 0; 
+  }
+  
+  .navbar-container {
+    display: flex;
+    /* justify-content: space-around;  */
+    /* align-items:flex-end; */
+    justify-content: right;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+
+  .navbar-container button {
+    color: rgb(96, 153, 218);
+  }
+  
+  @media (max-width: 1200px) {
+    
+  
+    .navbar-container {
+      flex-direction: row;
+      align-items: center;
+
+    }
+  
+    .navbar-container button {
+      margin-bottom: 10px;
+    }
+  }
+  

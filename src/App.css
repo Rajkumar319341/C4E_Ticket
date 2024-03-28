@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+}
+
+main{
+  width: 100%;
+  padding: 10px;
+
+}
+
+.sidebar{
+  background: rgb(34, 66, 85);
+  color: aliceblue;
+  height: 100vh;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15 px;
+}
+.logo{
+  font-size: 25px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.link{
+  display: flex;
+  color: aliceblue;
+  padding: 10px 15px;
+  gap:25px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  /* background: lightskyblue; */
+  color: #24bceb;
+}
+.icon, .link_text{
+  font-size:20px;
+  margin-top: 10px;
+}

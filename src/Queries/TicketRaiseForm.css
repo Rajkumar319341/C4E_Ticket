@@ -1,0 +1,31 @@
+.form {
+    max-width: 500px;
+    margin: auto;
+    padding: 16px;
+    margin-right: auto; 
+  }
+  
+  @media (min-width: 1200px) {
+    .form {
+      width: 700px;
+    }
+  }
+  
+  .textField {
+    margin-bottom: 16px;
+    margin-top: 8px; 
+  }
+  
+  .label {
+    margin-bottom: 8px; 
+    display: block; 
+  }
+  
+  .buttonGroup {
+    margin-top: 16px;
+  }
+  
+  .buttonGroup > * {
+    margin-right: 16px;
+  }
+  
